@@ -153,4 +153,12 @@ main {
 
 /* Section Right */
 /* Start Hero */
+.hero {
+    padding-left: 25rem;
+    align-items: center;
+}
+
+.hero .image img{
+    width: 70rem;
+}
 /* End Main */
