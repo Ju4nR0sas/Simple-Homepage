@@ -7,7 +7,6 @@
 html {
     /* 1px = 0.1rem */
     font-size: 62.5%;
-    font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -25,6 +24,7 @@ html {
 }
 
 body {
+    font-family: "Poppins", sans-serif;
     background-color: var(--background);
 }
 
@@ -63,3 +63,94 @@ body {
 .list li:hover {
     color: var(--dark-blue);
 }
+/* End Navbar */
+
+/* Start Main */
+main {
+    height: 100%;
+    width: 100%;
+    padding-top: 14rem;
+    display: flex;
+}
+
+/* Section Left */
+.content_text {
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+/* Text */
+.content_text .text {
+    color: var(--gray-blue);
+}
+
+.content_text .text .head{
+    font-weight: bold;
+    font-size: var(--small-text);
+}
+
+.content_text .text .title{
+    font-weight: bold;
+    font-size: var(--heading);
+}
+
+.content_text .text .paragraph{
+    color: var(--gray);
+    font-size: var(--body);
+}
+
+/* End Text */
+
+/* Button */
+
+.content_text .bottom {
+    padding-top: 2rem;
+}
+
+.content_text .bottom button{
+    border: none;
+    border-radius: 1rem;
+    padding: 1.8rem 4rem;
+    background: var(--blue);
+    font-size: var(--button-text);
+    font-weight: bold;
+    color: var(--white);
+}
+
+.content_text .bottom a{
+    margin-left: 4%;
+    font-weight: 600;
+    font-size: var(--button-text);
+}
+
+/* End Button */
+
+/* Vignette */
+
+.content_text .vignette{
+    padding-top: 3rem;
+}
+
+.content_text .vignette ul{
+    list-style: none;
+    display: flex;
+}
+
+.content_text .vignette ul li{
+    background: url(../Resources/Done_ring_round_fill.svg) no-repeat left center;
+    font-size: var(--small-text);
+    padding-left: 3rem;
+}
+
+.content_text .vignette ul li:nth-child(2){
+    margin-left: 6rem;
+}
+
+/* End Vignette */
+/* End Section Left */
+
+/* Section Right */
+/* Start Hero */
+/* End Main */
