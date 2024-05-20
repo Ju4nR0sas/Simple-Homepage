@@ -1,0 +1,25 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* 1px = 0.1rem */
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --heading: 6rem;
+    --body: 1.8rem;
+    --button-text: 1.6rem;
+    --small-text: 1.4rem;
+    --blue: #2A4DD0;
+    --green: #4CA154;
+    --dark-blue: #111729;
+    --gray-blue: #223344;
+    --gray: #909193;
+    --background: #F2F9FE;
+    --white: #FFFFFF;
+}
